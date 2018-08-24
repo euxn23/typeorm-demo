@@ -1,0 +1,23 @@
+{
+  "name": "typeorm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node src/server/index.js",
+    "schema:sync": "tsc && typeorm schema:sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.7.1",
+    "mysql": "^2.16.0",
+    "prettier": "^1.14.2",
+    "reflect-metadata": "^0.1.12",
+    "sqlite3": "^4.0.2",
+    "ts-node": "^7.0.1",
+    "typeorm": "^0.2.7",
+    "typescript": "^3.0.1"
+  }
+}

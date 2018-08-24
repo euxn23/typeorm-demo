@@ -1,0 +1,15 @@
+{
+  "type": "sqlite",
+  "database": "db.sqlite3",
+  "autoSchemaSync": true,
+  "entities": [
+    "src/shared/models/*.js"
+  ],
+  "migrations": [
+    "src/migrations/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "src/shared/models",
+    "migrationsDir": "src/migrations"
+  }
+}
